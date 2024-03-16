@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+html
+{
+    height: 500vh;
+}
+.conteiner
+{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header
+{
+    width: 100%;
+    padding: 40px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+header.rolagem
+{
+    background-color: rgba(255, 255, 255, 0.068);
+    padding: 15px 4%;
+}
+header.rolagem a
+{
+    color: black;
+}
+
+header i
+{
+    color: rgb(255, 255, 255);
+}
+header ul
+{
+    list-style-type: none;
+}
+header ul li
+{
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.contato button 
+{
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.banner
+{
+    height: 100vh;
+    background-image: url(../img/Backgound.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.sobre
+{
+    height: 50vh;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre h1
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.txt-sobre
+{
+    width: 75%;    
+}
+.f-player
+{
+    height: 75vh;
+    border: solid red;
+}
+.d1
+{
+    height: 20%;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1 h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d2
+{
+    height: 80%;
+    border: solid black;
+    display: flex;
+    align-items: center;    
+}
+.foto-fp
+{
+    width: 35%;
+    height: 75%;
+    border: solid black;
+    margin: 0 2%;
+}
+.inf-fp
+{
+    width: 50%;
+    height: 75%;
+    border: solid black;
+}
